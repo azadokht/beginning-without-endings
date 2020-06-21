@@ -162,7 +162,7 @@ a:active {
 
 @media only screen and (max-width: 600px) {
   .menu { top: 100px; font-size: 20px; width:100%; text-align: center; padding: 1.5em; padding-left: 2.3em; font-family: Arial;
-    font-weight: bold;}
+    font-weight: bold; left: 80px;}
 }
 
 @media only screen and (max-width: 600px) {
