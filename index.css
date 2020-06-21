@@ -7,12 +7,12 @@
 
 @font-face {
   font-family: Arial Narrow;
-  src: url(Arial Narrow.ttf);
+  src: url(Arial Narrow.otf);
 }
 
 @font-face {
-  font-family: Arial Bold Italic;
-  src: url(Arial Bold Italic.ttf);
+  font-family: Arial Bold;
+  src: url(Arial Bold.otf);
 }
 
 body {
