@@ -39,7 +39,6 @@ body {
     width: 80%;
     text-align: center;
     margin: 0 auto 1em auto;
-    font-family: Theinhardt-Light;
     box-shadow: 5px 10px 18px green;
 }
 
@@ -56,6 +55,8 @@ body {
     transform: scale(1);
     transform-origin: right;
     font-size: 5vw;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
 }
 
 .flag-text-body {
@@ -116,7 +117,7 @@ video {
 }
 
 @media (max-width: 600px) {
-.flag-text-body p { font-size:3.5vw; hyphens: auto;}
+.flag-text-body p { font-size:4.5vw; hyphens: auto;}
 }
 
 @media (max-width: 600px) {
