@@ -6,14 +6,15 @@
 }
 
 @font-face {
-  font-family: Theinhardt-Regular;
-  src: url(Theinhardt-Regular.otf);
+  font-family: Arial Narrow;
+  src: url(Arial Narrow.ttf);
 }
 
 @font-face {
-  font-family: Theinhardt-Light;
-  src: url(Theinhardt-Light.otf);
+  font-family: Arial Bold Italic;
+  src: url(Arial Bold Italic.ttf);
 }
+
 
 body {
   font-family: 'Open Sans', 'sans-serif';
