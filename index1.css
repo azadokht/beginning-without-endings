@@ -11,10 +11,9 @@
 }
 
 @font-face {
-  font-family: Arial Bold;
-  src: url(Arial Bold.otf);
+  font-family: Arial Narrow Bold;
+  src: url(Arial Narrow Bold.otf);
 }
-
 
 body {
   font-family: 'Open Sans', 'sans-serif';
@@ -56,13 +55,14 @@ body {
     transform: scale(1);
     transform-origin: right;
     font-size: 5vw;
-    font-family: "Arial Narrow", Arial, sans-serif;
+    font-family: Arial Narrow,Arial,sans-serif;
     font-weight: bold;
 }
 
 .author-list{
-  font-family: "Arial Narrow", Arial, sans-serif;
+  font-family: Arial Narrow,Arial,sans-serif;
   padding-bottom:20px;
+  font-style: italic;
 }
 
 .flag-text-body {

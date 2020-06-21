@@ -11,8 +11,8 @@
 }
 
 @font-face {
-  font-family: Arial Bold;
-  src: url(Arial Bold.otf);
+  font-family: Arial Narrow Bold;
+  src: url(Arial Narrow Bold.otf);
 }
 
 body {
@@ -34,7 +34,7 @@ body {
 
 .title {
   font-size: 2vw;
-  font-family: "Arial Narrow", Arial, sans-serif;
+  font-family: Arial Narrow,Arial,sans-serif;
   font-weight: bold;
   position: absolute;
   top: 30px;
@@ -42,7 +42,7 @@ body {
 }
 
 .menu {
-  font-family: "Arial Narrow", Arial, sans-serif;
+  font-family: Arial Narrow,Arial,sans-serif;
   font-weight: bold;
   position: absolute;
   top: 30px;
@@ -68,7 +68,8 @@ body {
     height: 560px;
     color: black;
     text-align: center;
-    font-family: "Arial Narrow", Arial, sans-serif;
+    font-family: Arial Narrow,Arial,sans-serif;
+    font-style: italic;
     font-size: 0.8em;
     text-transform: uppercase;
 }
