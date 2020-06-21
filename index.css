@@ -62,7 +62,6 @@ body {
 
 .grid-pane > .grid-item {
     /* border: 1px solid black; */
-    padding: 1.5em;
     height: 560px;
     color: black;
     text-align: center;
@@ -178,6 +177,7 @@ a:active {
 @media (max-width: 600px) {
   .grid-pane { grid-template-columns: repeat(1, 1fr);}
 }
+
 
 
 @media (max-width: 600px) {
