@@ -16,8 +16,7 @@
 }
 
 body {
-  font-family: 'Open Sans', 'sans-serif';
-  background-color: #fff;
+  background-color: rgb(236, 236, 236);
 }
 
 
@@ -40,6 +39,7 @@ body {
     text-align: center;
     margin: 0 auto 1em auto;
     font-family: Theinhardt-Light;
+    box-shadow: 5px 10px 18px green;
 }
 
 .flag-header .flag-header-inner .flag-title h1 {
@@ -57,19 +57,21 @@ body {
 .flag-header .flag-header-inner .flag-author {
     font-size: 22px;
     text-align: center;
-    /* background-color: white; */
     line-height: 1.6;
     padding: 22px;
+    background-color: rgb(236, 236, 236);
 }
 
 .flag-text-body {
     width: 100%;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 1.38;
     text-align: left;
     margin-bottom: 0;
     color: #0a0a0a;
     overflow-x: hidden;
+    font-family: Georgia;
+    font-weight: Medium;
 }
 
 img {
@@ -110,6 +112,7 @@ video {
   text-align:center;
   padding: 20px;
   display: inline-block;
+  font-family: Theinhardt-Light;
 }
 
 @media only screen and (min-width: 2000px) {
@@ -131,6 +134,12 @@ img.imgflags { width: auto; height:100px; float: left; top: 130px; left: 0;}
 @media (max-width: 600px) {
 .bottomtext h2 { font-size: 15px;}
 }
+
+@media (max-width: 600px) {
+.flag-header { width: 90%;}
+}
+
+
 
 a:link {
   color: black;
