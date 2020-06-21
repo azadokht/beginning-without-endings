@@ -34,7 +34,7 @@ body {
 
 .title {
   font-size: 2vw;
-  font-family: Arial Narrow,Arial,sans-serif;
+  font-family: "Arial Narrow";
   font-weight: bold;
   position: absolute;
   top: 30px;
@@ -42,7 +42,7 @@ body {
 }
 
 .menu {
-  font-family: Arial Narrow,Arial,sans-serif;
+  font-family: "Arial Narrow";
   font-weight: bold;
   position: absolute;
   top: 30px;
@@ -68,7 +68,7 @@ body {
     height: 560px;
     color: black;
     text-align: center;
-    font-family: Arial Narrow,Arial,sans-serif;
+    font-family: "Arial Narrow";
     font-style: italic;
     font-size: 0.8em;
     text-transform: uppercase;

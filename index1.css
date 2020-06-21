@@ -55,14 +55,15 @@ body {
     transform: scale(1);
     transform-origin: right;
     font-size: 5vw;
-    font-family: Arial Narrow,Arial,sans-serif;
+    font-family: "Arial Narrow";
     font-weight: bold;
 }
 
 .author-list{
-  font-family: Arial Narrow,Arial,sans-serif;
+  font-family: "Arial Narrow";
   padding-bottom:20px;
   font-style: italic;
+  text-transform: uppercase;
 }
 
 .flag-text-body {
@@ -115,7 +116,9 @@ video {
   text-align:center;
   padding: 20px;
   display: inline-block;
-  font-family: Theinhardt-Light;
+  font-family: "Arial Narrow";
+  font-weight: normal;
+
 }
 
 @media only screen and (min-width: 2000px) {
