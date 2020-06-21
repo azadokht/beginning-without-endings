@@ -26,7 +26,8 @@ body {
 
 
 .aboutbox p {
-  font-family: Theinhardt-Regular;
+  font-family: "Arial Narrow";
+  font-weight: normal;
   font-size: 26px;
   padding: 1.5em;
 }
