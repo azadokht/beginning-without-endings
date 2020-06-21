@@ -169,3 +169,8 @@ a:active {
   .aboutbox p{ padding-left: 20px; font-family: Arial;
     font-weight: normal;}
 }
+
+@media only screen and (max-width: 600px) {
+  .grid-pane > .grid-item { font-family: Arial;
+    font-weight: normal;}
+}
