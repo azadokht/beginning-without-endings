@@ -145,7 +145,8 @@ a:active {
 
 
 @media only screen and (min-width: 2000px) {
-  .title { padding-left: 20px}
+  .title { padding-left: 20px; font-family: Arial;
+    font-weight: bold;}
 }
 
 @media only screen and (max-width: 600px) {
@@ -154,5 +155,6 @@ a:active {
 
 
 @media only screen and (max-width: 600px) {
-  .menu { top: 100px; font-size: 20px; width:100%; text-align: center; padding: 1.5em; padding-left: 2.3em;}
+  .menu { top: 100px; font-size: 20px; width:100%; text-align: center; padding: 1.5em; padding-left: 2.3em; font-family: Arial;
+    font-weight: bold;}
 }
