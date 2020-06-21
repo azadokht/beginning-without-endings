@@ -31,7 +31,7 @@ body {
   margin-top: 10px;
   } */
 
-  .flag-header .flag-header-inner {
+  .flag-header {
       padding-top: 30px;
   }
 
@@ -43,24 +43,19 @@ body {
     box-shadow: 5px 10px 18px green;
 }
 
-.flag-header .flag-header-inner .flag-title h1 {
-    /* padding: 0 20px; */
+.flag-title  {
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:30px;
     display: block;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     text-align: center;
     overflow-x: hidden;
-    line-height: 1.2;
-    font-size: 4.5vw;
+    line-height: 1;
     transform: scale(1);
     transform-origin: right;
-}
-.flag-header .flag-header-inner .flag-author {
-    font-size: 22px;
-    text-align: center;
-    line-height: 1.6;
-    padding: 22px;
-    background-color: rgb(236, 236, 236);
+    font-size: 5vw;
 }
 
 .flag-text-body {
@@ -140,7 +135,9 @@ img.imgflags { width: auto; height:100px; float: left; top: 130px; left: 0;}
 .flag-header { width: 90%;}
 }
 
-
+@media (max-width: 600px) {
+.flag-title { font-size: 25px; padding-right:40px;}
+}
 
 a:link {
   color: black;
