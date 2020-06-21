@@ -1,0 +1,206 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Theinhardt-Regular;
+  src: url(Theinhardt-Regular.otf);
+}
+
+@font-face {
+  font-family: Theinhardt-Light;
+  src: url(Theinhardt-Light.otf);
+}
+
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: #fff;
+}
+
+
+/* .title {
+  width: 700px;
+  font-size: 7vw;
+  font-family: Theinhardt-Light;
+  text-transform: uppercase;
+  text-align: center;
+  margin:0 auto;
+  margin-top: 10px;
+  } */
+
+  .flag-header .flag-header-inner {
+      padding-top: 30px;
+  }
+
+  .flag-header {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 1em auto;
+    font-family: Theinhardt-Light;
+}
+
+.flag-header .flag-header-inner .flag-title h1 {
+    /* padding: 0 20px; */
+    display: block;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    overflow-x: hidden;
+    line-height: 1.2;
+    font-size: 4.5vw;
+    transform: scale(1);
+    transform-origin: right;
+}
+.flag-header .flag-header-inner .flag-author {
+    font-size: 22px;
+    text-align: center;
+    /* background-color: white; */
+    line-height: 1.6;
+    padding: 22px;
+}
+
+.flag-text-body {
+    width: 100%;
+    font-size: 21px;
+    line-height: 1.38;
+    text-align: left;
+    margin-bottom: 0;
+    color: #0a0a0a;
+    overflow-x: hidden;
+}
+
+img {
+ padding-bottom: 10px;
+ padding-top: 20px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+.imgflags{
+  position: -webkit-sticky;
+   position: sticky;
+   top: 240px;
+   left: 100px;
+   width: 80px;
+   float: left;
+}
+
+figcaption {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+}
+
+video {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomtext h2{
+  font-size: 25px;
+  text-align:center;
+  padding: 20px;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 2000px) {
+  .imgflags { width: auto; height:200px; float: left; top: 390px; left: 250px;}
+}
+
+@media (max-width: 600px) {
+.flag-text-body p { font-size:3.5vw; hyphens: auto;}
+}
+
+@media (max-width: 600px) {
+img { width: 100%;}
+}
+
+@media (max-width: 600px) {
+img.imgflags { width: auto; height:100px; float: left; top: 130px; left: 0;}
+}
+
+@media (max-width: 600px) {
+.bottomtext h2 { font-size: 15px;}
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* #ticker-container {
+    background-color: white;
+    height: 60px;
+    position: sticky;
+    bottom: 0;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 1em auto;
+}
+
+#ticker-text {
+    bottom: 10px;
+    font-family: Theinhardt-Regular;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase; */
+
+/*    border:1px solid white;*/
+
+
+/* .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+} */
