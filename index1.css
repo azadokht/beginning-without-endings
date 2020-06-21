@@ -143,7 +143,7 @@ img.imgflags { width: auto; height:100px; float: left; top: 130px; left: 0;}
 }
 
 @media (max-width: 600px) {
-.flag-title { font-size: 25px; padding-right:40px;}
+.flag-title { font-size: 20px; padding-right:40px;}
 }
 
 a:link {
