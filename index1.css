@@ -59,6 +59,11 @@ body {
     font-weight: bold;
 }
 
+.author-list{
+  font-family: "Arial Narrow", Arial, sans-serif;
+  padding-bottom:20px;
+}
+
 .flag-text-body {
     width: 100%;
     font-size: 20px;
