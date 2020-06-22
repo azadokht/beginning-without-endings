@@ -116,6 +116,7 @@ a:active {
   .grid-pane { grid-template-columns: repeat(2, 1fr);}
 }
 
+
 @media (max-width: 600px) {
   .grid-pane { grid-template-columns: repeat(1, 1fr);}
 }
@@ -123,8 +124,8 @@ a:active {
 
 
 @media (max-width: 600px) {
-  .title { font-size:11vw; text-align: center; top: 5px; width: 100%;
-    left: 0;}
+  .title { font-size:12vw; text-align: center; top: 5px; width: 100%; font-family: Arial;
+    font-weight: bold; left: 0;}
 }
 
 /* @media (max-width: 600px) {
@@ -149,11 +150,6 @@ a:active {
     font-weight: bold;}
 }
 
-@media only screen and (max-width: 600px) {
-  .title { font-family: Arial;
-    font-weight: bold;}
-}
-
 
 @media only screen and (max-width: 600px) {
   header { padding: 25px;}
@@ -161,7 +157,7 @@ a:active {
 
 
 @media only screen and (max-width: 600px) {
-  .menu { top: 90px; font-size: 20px; text-align: center; padding: 1.5em; padding-left: 2.3em; font-family: Arial;
+  .menu { top: 90px; font-size: 20px; text-align: center; padding: 1.5em; font-family: Arial;
     font-weight: bold; left: 80px;}
 }
 
@@ -172,5 +168,5 @@ a:active {
 
 @media only screen and (max-width: 600px) {
   .grid-pane > .grid-item { font-family: Arial;
-    font-weight: normal;}
+    font-weight: normal; height:674px;}
 }
