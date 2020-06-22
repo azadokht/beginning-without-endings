@@ -118,7 +118,26 @@ video {
   display: inline-block;
   font-family: "Arial Narrow";
   font-weight: normal;
+}
 
+.return {
+    font-family: "Arial Narrow";
+    font-weight: normal;
+    font-size: 20px;
+    position: fixed;
+    right: 2%;
+    bottom: 1%;
+    flex-grow: 1;
+    display: inline-block;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    margin-top: 1%;
+    padding: 8px 10px 8px 10px;
+    z-index: 500;
+}
+
+.return:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 2000px) {
